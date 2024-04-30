@@ -26,5 +26,6 @@ export abstract class IntegrationEvent<T extends IJSONSerializable> extends Enti
 
 export enum EventType {
     FILE = 'file',
-    DELETE = 'Delete'
+    DELETE = 'Delete',
+    BOOK = 'books'
 }
