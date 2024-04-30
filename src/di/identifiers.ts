@@ -17,13 +17,19 @@ export abstract class Identifier {
     // Repositories
     public static readonly INTEGRATION_EVENT_REPOSITORY: any = Symbol.for('IntegrationEventRepository')
     public static readonly DIRECTORY_REPOSITORY: any = Symbol.for('DirectoryRepository')
+    public static readonly BOOK_REPOSITORY: any = Symbol.for('BookRepository')
+    public static readonly USER_REPOSITORY: any = Symbol.for('UserRepository')
 
     // Models
     public static readonly INTEGRATION_EVENT_REPO_MODEL: any = Symbol.for('IntegrationEventRepoModel')
     public static readonly DIRECTORY_REPO_MODEL: any = Symbol.for('DirectoryRepoModel')
+    public static readonly BOOK_REPO_MODEL: any = Symbol.for('BookRepoModel')
+    public static readonly USER_REPO_MODEL: any = Symbol.for('UserRepoModel')
 
     // Mappers
     public static readonly DIRECTORY_MAPPER: any = Symbol.for('DirectoryMapper')
+    public static readonly BOOK_ENTITY_MAPPER: any = Symbol.for('BookEntityMapper')
+    public static readonly USER_ENTITY_MAPPER: any = Symbol.for('UserEntityMapper')
 
     // Background Services
     public static readonly MONGODB_CONNECTION_FACTORY: any = Symbol.for('ConnectionFactoryMongodb')
