@@ -66,6 +66,7 @@ class IoC {
         this._container
             .bind<DirectoryCotroller>(Identifier.DIRECTORY_CONTROLLER)
             .to(DirectoryCotroller).inSingletonScope()
+        
 
         // Service
         this._container

@@ -8,6 +8,9 @@ export abstract class Identifier {
 
     // Controllers
     public static readonly DIRECTORY_CONTROLLER: any = Symbol.for('DirectoryController')
+    public static readonly BOOK_CONTROLLER: any = Symbol.for('BookController')
+    public static readonly USER_CONTROLLER: any = Symbol.for('UserController')
+    public static readonly HOME_CONTROLLER: any = Symbol.for('HomeController')
 
     // Services
     public static readonly DIRECTORY_SERVICE: any = Symbol.for('DirectoryService')
